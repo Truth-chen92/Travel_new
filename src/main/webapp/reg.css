@@ -1,0 +1,151 @@
+body, div, dl,a, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,form,input, textarea, p, th, td, hr, button{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Microsoft YaHei;
+}
+
+a{
+	text-decoration: none;
+}
+/*登录页*/
+#login{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url(Login/login-bg.jpg);
+	background-size: cover;
+	min-height: 269px;
+	background-position: 50% 0px;
+	background-repeat: no-repeat no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-box{
+	width: 11.2rem;
+	height: 6rem;
+	border-radius: 0.1rem;
+	background: rgba(14, 8, 8, 0.88);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 0.16rem
+}
+.login-left{
+	width: 50%;
+	display: flex;
+	flex-direction:column;
+}
+
+.login-left a{
+	display: flex;
+	color: #fff;
+	margin: 0.48rem 0 0 1.45rem;
+	align-items: center;
+	font-size: .2rem
+}
+.login-back img{
+	width: 0.25rem;
+	margin-right: 0.24rem;
+
+}
+.login-left>img{
+	width: 3.65rem;
+	margin-left: 1.26rem;
+	margin-top: 1.89rem
+}
+
+.login-right{
+	width: 50%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+}
+.login-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 65%;
+	margin-bottom: 0.46rem;
+	margin-top: 0.2rem;
+	flex-wrap: wrap;
+	position: relative;
+	border:1px solid rgba(255,255,255,1);
+	border-radius: .1rem;
+	padding-left: .25rem;
+}
+.login-item img{
+	height: 0.3rem;
+	min-height: 20px;
+}
+.login-item input{
+	outline: none;
+	border:none;
+	flex: 2;
+	width: 50%;
+	background: transparent;
+	color: #fff;
+}
+.login-icon{
+	width: 0.7rem;
+	min-width:30px;
+	margin: .1rem 0;
+}
+.login-input{
+	flex: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.1rem 0;
+
+}
+.login-input input::-webkit-input-placeholder{
+    color:#fff;
+}
+
+.login-input input::-moz-placeholder{
+    color:#fff;
+}
+
+.login-input input:-ms-input-placeholder{
+    color:#fff;
+}
+.login-btn{
+	padding:0.05rem 0.17rem;
+	border:1px solid #fff;
+	border-radius:10px;
+	cursor: pointer;
+	margin-right: 0.14rem;
+	color: #fff;
+}
+.input-error{
+	width: 100%;
+	text-align: right;
+	color: red;
+	margin-top: 0.1rem;
+	position: absolute;
+	bottom: -20px;
+	display: none;
+	right: 0;
+}
+
+.login-sumbit{
+	width: 65%;
+	font-size:16px;
+	color: #3E3D3D;
+	line-height:36px;
+	text-align: center;
+	background:#fff;
+	border-radius:10px;
+	cursor: pointer;
+}
+.login-sumbit.login-disable{
+	cursor: not-allowed;
+}
+
+

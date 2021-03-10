@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="reg.css">
+    <script src="rem.js"></script>
+
+
+</head>
+<body>
+<div id="login">
+    <form action="login" method="post" id="loginform">
+        <div class="login-box">
+            <div class="login-left">
+                <img src="https://xiangyuanhui.oss-cn-hangzhou.aliyuncs.com/fenghuang/login/logo.png" alt="logo">
+                <a href="index.html" class="login-back"><img src="Login/logo.png">返回首页</a>
+            </div>
+            <div class="login-right">
+                <div class="login-item login-phone">
+                    <div class="login-icon"><img src="Login/username.png"></div>
+                    <div class="login-input">
+                        <input type="text" name="username" id="username" placeholder="请输入用户名">
+                    </div>
+                    <div class="input-error">用户名错误</div>
+                </div>
+                <div class="login-item login-phone">
+                    <div class="login-icon"><img src="Login/password.png"></div>
+                    <div class="login-input">
+                        <input type="text" name="password" id="password" placeholder="请输入密码">
+                    </div>
+                </div>
+                <div class="login-sumbit unselected" onclick="document.getElementById('loginform').submit()">登录</div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
